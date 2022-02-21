@@ -1,0 +1,61 @@
+/* *{
+    margin: 0px;
+} */
+
+body{
+    background-color: #f1f5f8;
+}
+
+.flex{
+    display: flex;
+}
+.container{
+
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+main{
+    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 2em;
+    gap:1rem;
+}
+
+h1{
+    font-family:"Open Sans", sans-serif;
+    color: #102a42;
+    font-size: 2em;
+    margin: 0;
+    text-align: center;
+}
+
+.btn-section{
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.action{
+    font-size: 1.2em;
+    background-color: transparent;
+    border-radius: 0.5rem;
+    font-family: Arial;
+}
+
+.action:hover{
+    background-color: #222222;
+    color: #fff;
+    
+
+}
+ 
+@media only screen and (min-width: 800px){
+    
+    .btn-section{
+        flex-direction: row;
+    }
+
+}
